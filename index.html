@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="to-do-list">
+            <div class="Sum-All">
+                <span id="enter__sum"></span>
+            </div>
+            <div class="inner-block" id="inn-block">
+                <input type="text" placeholder="Добавить наименование" id="input">
+
+            </div>
+            <ul class="do__list" id="list"></ul>
+
+            <div class="input__price">
+                <input type="text" placeholder="Добавить цену" id="input2">
+            </div>
+            <span class="sumAll"></span>
+            <ul class="do__list" id="list"></ul>
+            <div class="select">
+                <select name="Выбор валюты" id="select__list">
+                    <option id="$" value="$">$</option>
+                    <option id="₽" value="₽">₽</option>
+                    <option id="€" value="€">€</option>
+                </select>
+            </div>
+
+
+            <button id="btn">Добавить</button>
+
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal__window">
+                <p class="modal__msg">Удалить?</p>
+                <button id="del">Удалить</button>
+                <button id="cancel">Отмена</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
